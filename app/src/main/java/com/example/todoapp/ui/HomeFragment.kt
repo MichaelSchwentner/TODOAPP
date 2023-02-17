@@ -64,6 +64,7 @@ class HomeFragment : Fragment(){
             val newNumber = TodoappItem(name)
             todoappList.add(newNumber)
             adapter.notifyItemInserted(todoappList.lastIndex)
+            binding.homeTodoEdit.setText("")
 
         }
 
