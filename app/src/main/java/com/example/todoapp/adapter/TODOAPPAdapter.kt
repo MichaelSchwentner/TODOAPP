@@ -18,7 +18,7 @@ class TODOAPPAdapter(
     // IDEE EINES VIEWHOLDERS
     // der ViewHolder weiß welche Teile des Layouts beim Recycling angepasst werden
     class ViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
-        val todo = view.findViewById<TextView>(R.id.todoapp_title_text)
+        val todo = view.findViewById<TextView>(R.id.todoapp_todos_text)
         val todoDelete = view.findViewById<ImageView>(R.id.todoapp_delete_view)
 
 

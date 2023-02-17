@@ -48,11 +48,10 @@
                 android:layout_width="258dp"
                 android:layout_height="39dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
                 android:textColor="#000000"
                 android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/todoapp_title_text"
-                app:layout_constraintTop_toTopOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/todoapp_title_text"
                 tools:text="Schritt 1: Definieren Sie Ihre Zielgruppe, bevor Sie die Bedienungsanleitung schreiben." />
 
             <com.google.android.material.card.MaterialCardView
